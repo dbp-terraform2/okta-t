@@ -1,3 +1,5 @@
 services:
   nginx:
     image: nginx:latest
+    labels:
+      app: sample
