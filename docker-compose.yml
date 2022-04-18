@@ -1,5 +1,8 @@
 services:
-  nginx:
+  app:
     image: nginx:latest
     labels:
       app: sample
+    ports:
+      - 8080:80
+
